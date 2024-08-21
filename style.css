@@ -1,6 +1,6 @@
 body {
     color: white;
-    background: white;
+    background: black;
     margin: 0px;
 }
 
@@ -12,5 +12,13 @@ header{
 }
 
 section{
-    background: yellow;
+    background: white;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
 }
