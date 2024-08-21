@@ -1,12 +1,12 @@
 body {
-    color: rgb(0, 0, 0);
-    background: rgb(250, 250, 250);
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     margin: 0px;
 }
 
 header{
-    border-bottom: sold 2px white;
+    border-bottom: sold 2px rgb(0, 0, 0);
     padding: 20px;
     font-size: 32px;
-    color: black;
+    color: rgb(255, 0, 0);
 }
