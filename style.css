@@ -42,9 +42,9 @@ header{
 
 .categoria-videos img:hover{
     opacity: 1.0;
-    border: 1px sold blue;
+    border: 1px sold black;
 }
 
 .categoria h2{
-    color: blue;
+    color: black;
 }
