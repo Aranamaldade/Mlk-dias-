@@ -1,7 +1,8 @@
 body {
     color: white;
     background: black;
-    margin: 35px;
+    margin: 0px;
+    margin-bottom: 100px;
 }
 
 header{
@@ -11,14 +12,39 @@ header{
     color: black;
 }
 
-section{
+.chamada{
     background: white;
-    padding-bottom: 80px;
-    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
 }
 
 .chamada-texto{
     margin-right: 5%;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px sold blue;
+}
+
+.categoria h2{
+    color: blue;
 }
